@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,14 +15,14 @@
 </head>
 <body>
     <form class="hidden" id="login-form">
-        <input required maxlength="15" type="text" placeholder="What is your name?" />  
+        <input class="textbox" required maxlength="15" type="text" placeholder="What is your name?" />  
         <!-- 최대길이는 15 required는 무조건 값이 작성되어있어야 한다. -->
-        <input type="submit" value="Log In" />
+        <input class="button" type="submit" value="Log In" />
     </form>
     <h2 id="clock">00:00:00</h2>
     <h1 id="greeting" class="hidden"></h1>
     <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter" required />
+        <input class="textbox" type="text" placeholder="Write a To Do and Press Enter" required />
     </form>
     <ul id="todo-list"></ul>
     <div id="quote">

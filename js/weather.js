@@ -12,7 +12,7 @@ function onGeoOk(position) {
         const weather = document.querySelector("#weather span:first-child");
         const city = document.querySelector("#weather span:last-child");
         city.innerText =data.name;                                            //살고있는 좌표의 도시이름
-        weather.innerText = `${data.weather[0].main}/ ${data.main.temp}`;   //날씨정보와 온도
+        weather.innerText = `${data.weather[0].main} / ${data.main.temp}℃`;   //날씨정보와 온도
     });
 }
 function onGeoError() {
